@@ -1,21 +1,10 @@
-package main
+package stru
 
 import (
-	"io/ioutil"
-	"log"
 	"strings"
-	"fmt"
 )
 
-func main() {
-	bytes, err := ioutil.ReadFile("./stru.sql")
-	if err != nil {
-		log.Fatal(err)
-	}
-	fmt.Println(stru(string(bytes)))
-}
-
-func stru(sql string) string {
+func Stru(sql string) string {
 	linhas := strings.Split(sql, "\r\n")
 	novasLinhas := make([]string, 0)
 	procedure := false
