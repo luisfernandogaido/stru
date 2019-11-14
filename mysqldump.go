@@ -50,7 +50,7 @@ func MysqlDumpStru(alias, servidor, usuario, senha, base string) error {
 		if strings.Contains(s.Text(), "SET sql_mode") {
 			continue
 		}
-		_, err = f.WriteString(fmt.Sprintf("%v\n", s.Text()))
+		_, err = f.WriteString(fmt.Sprintf("%v\n", strings.ToLower(s.Text())))
 		if err != nil {
 			return erro(err)
 		}
