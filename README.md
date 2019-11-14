@@ -1,2 +1,2 @@
 # stru
-Modifica um arquivo de dump do MySQL para que possa ser executado programaticamente
+Cria a estrutura de bases MySQL para propósitos de comparação.
