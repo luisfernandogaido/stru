@@ -26,7 +26,7 @@ func loadConf() ([]Base, error) {
 	case "MSI75271154":
 		dir = "C:\\GoPrograms\\stru"
 	case "lemp":
-		dir = "C:\\GoPrograms\\stru"
+		dir = "/var/www/goprograms"
 	default:
 		return nil, fmt.Errorf("load: host desconhecido")
 	}
