@@ -42,7 +42,7 @@ func MysqlDumpStru(alias, servidor, usuario, senha, base string) error {
 
 	b = reAutInc.ReplaceAll(b, nil)
 	b = reDefine.ReplaceAll(b, nil)
-	b = reCharse.ReplaceAll(b, []byte("$1"))
+	b = reCharse.ReplaceAll(b, []byte(" $1 "))
 	s := bufio.NewScanner(bytes.NewReader(b))
 	f, err := os.Create(filepath.Join("./", alias+".sql"))
 	if err != nil {
