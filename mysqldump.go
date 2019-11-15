@@ -15,7 +15,6 @@ var (
 	reAutInc = regexp.MustCompile(` AUTO_INCREMENT=\d+`)
 	reDefine = regexp.MustCompile(" DEFINER=`[^`]+`@`[^`]+`")
 	reCharse = regexp.MustCompile(`/\*!50503 ([^*]+) \*/`)
-	/*!50503 set character_set_client = utf8mb4 */
 )
 
 func MysqlDumpStru(alias, servidor, usuario, senha, base string) error {
