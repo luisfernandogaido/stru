@@ -1,0 +1,79 @@
+[
+  {
+    "alias": "loc",
+    "servidor": "localhost",
+    "usuario": "root",
+    "senha": "Semaver13",
+    "banco": "atlas"
+  },
+  {
+    "alias": "atlas",
+    "servidor": "198.211.115.248",
+    "usuario": "root",
+    "senha": "1000sonhosreais",
+    "banco": "atlas"
+  },
+  {
+    "alias": "grupoatlas",
+    "servidor": "198.211.115.248",
+    "usuario": "root",
+    "senha": "1000sonhosreais",
+    "banco": "grupo_atlas"
+  },
+  {
+    "alias": "bavep",
+    "servidor": "198.211.115.248",
+    "usuario": "root",
+    "senha": "1000sonhosreais",
+    "banco": "profinanc_bavep"
+  },
+  {
+    "alias": "graciano",
+    "servidor": "198.211.115.248",
+    "usuario": "root",
+    "senha": "1000sonhosreais",
+    "banco": "profinanc_graciano"
+  },
+  {
+    "alias": "suprema",
+    "servidor": "198.211.115.248",
+    "usuario": "root",
+    "senha": "1000sonhosreais",
+    "banco": "profinanc_suprema"
+  },
+  {
+    "alias": "testeatlas",
+    "servidor": "198.211.115.248",
+    "usuario": "root",
+    "senha": "1000sonhosreais",
+    "banco": "testeatlas"
+  },
+  {
+    "alias": "testegrupoatlas",
+    "servidor": "198.211.115.248",
+    "usuario": "root",
+    "senha": "1000sonhosreais",
+    "banco": "testegrupo_atlas"
+  },
+  {
+    "alias": "testebavep",
+    "servidor": "198.211.115.248",
+    "usuario": "root",
+    "senha": "1000sonhosreais",
+    "banco": "testebavep"
+  },
+  {
+    "alias": "testegraciano",
+    "servidor": "198.211.115.248",
+    "usuario": "root",
+    "senha": "1000sonhosreais",
+    "banco": "testegraciano"
+  },
+  {
+    "alias": "testesuprema",
+    "servidor": "198.211.115.248",
+    "usuario": "root",
+    "senha": "1000sonhosreais",
+    "banco": "testesuprema"
+  }
+]

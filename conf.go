@@ -26,7 +26,7 @@ func loadConf() ([]Base, error) {
 	case "MSI75271154":
 		dir = "C:\\GoPrograms\\stru"
 	case "lemp":
-		dir = "/var/www/goprograms"
+		dir = "/var/www/html/stru/conf/lemp.json"
 	case "NOTE-GAIDO":
 		dir = "C:\\GoPrograms\\stru"
 	default:
