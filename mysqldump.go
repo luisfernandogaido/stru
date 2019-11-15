@@ -14,6 +14,8 @@ import (
 var (
 	reAutInc = regexp.MustCompile(` AUTO_INCREMENT=\d+`)
 	reDefine = regexp.MustCompile(" DEFINER=`[^`]+`@`[^`]+`")
+	reCharse = regexp.MustCompile(`/*!50503 ([^*]+) */`)
+	/*!50503 set character_set_client = utf8mb4 */
 )
 
 func MysqlDumpStru(alias, servidor, usuario, senha, base string) error {
@@ -40,6 +42,7 @@ func MysqlDumpStru(alias, servidor, usuario, senha, base string) error {
 
 	b = reAutInc.ReplaceAll(b, nil)
 	b = reDefine.ReplaceAll(b, nil)
+	b = reCharse.ReplaceAllLiteral(b, []byte("$1"))
 	s := bufio.NewScanner(bytes.NewReader(b))
 	f, err := os.Create(filepath.Join("./", alias+".sql"))
 	if err != nil {
