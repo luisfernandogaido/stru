@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
-	"path/filepath"
 )
 
 type Base struct {
@@ -21,18 +20,18 @@ func loadConf() ([]Base, error) {
 	if err != nil {
 		return nil, fmt.Errorf("load: %w", err)
 	}
-	var dir string
+	var file string
 	switch host {
 	case "MSI75271154":
-		dir = "C:\\GoPrograms\\stru"
+		file = "C:\\GoPrograms\\stru\\stru.json"
 	case "lemp":
-		dir = "/var/www/html/stru/conf/lemp.json"
+		file = "/var/www/html/stru/conf/lemp.json"
 	case "NOTE-GAIDO":
-		dir = "C:\\GoPrograms\\stru"
+		file = "C:\\GoPrograms\\stru\\stru.json"
 	default:
 		return nil, fmt.Errorf("load: host desconhecido")
 	}
-	b, err := ioutil.ReadFile(filepath.Join(dir, "stru.json"))
+	b, err := ioutil.ReadFile(file)
 	if err != nil {
 		return nil, fmt.Errorf("load: %w", err)
 	}
