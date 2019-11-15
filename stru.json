@@ -7,13 +7,6 @@
     "banco": "atlas"
   },
   {
-    "alias": "football",
-    "servidor": "localhost",
-    "usuario": "root",
-    "senha": "Semaver13",
-    "banco": "football"
-  },
-  {
     "alias": "atlas",
     "servidor": "198.211.115.248",
     "usuario": "root",
