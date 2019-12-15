@@ -75,5 +75,12 @@
     "usuario": "root",
     "senha": "1000sonhosreais",
     "banco": "testesuprema"
+  },
+  {
+    "alias": "gaidodev",
+    "servidor": "localhost",
+    "usuario": "root",
+    "senha": "Semaver13",
+    "banco": "gaidodev"
   }
 ]
