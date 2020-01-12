@@ -82,5 +82,26 @@
     "usuario": "root",
     "senha": "Semaver13",
     "banco": "gaidodev"
+  },
+  {
+    "alias": "gaidodevpro",
+    "servidor": "198.211.115.248",
+    "usuario": "root",
+    "senha": "1000sonhosreais",
+    "banco": "gaidodev"
+  },
+  {
+    "alias": "consorcio",
+    "servidor": "localhost",
+    "usuario": "root",
+    "senha": "Semaver13",
+    "banco": "consorcio"
+  },
+  {
+    "alias": "consorciopro",
+    "servidor": "198.211.115.248",
+    "usuario": "root",
+    "senha": "1000sonhosreais",
+    "banco": "consorcio"
   }
 ]
