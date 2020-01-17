@@ -26,6 +26,8 @@ func loadConf() ([]Base, error) {
 		file = "C:\\GoPrograms\\stru\\stru.json"
 	case "lemp":
 		file = "/var/www/html/stru/conf/lemp.json"
+	case "lemp3":
+		file = "/var/www/html/stru/conf/lemp.json"
 	case "NOTE-GAIDO":
 		file = "C:\\GoPrograms\\stru\\stru.json"
 	default:
