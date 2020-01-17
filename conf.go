@@ -17,6 +17,7 @@ type Base struct {
 
 func loadConf() ([]Base, error) {
 	host, err := os.Hostname()
+	fmt.Print(host)
 	if err != nil {
 		return nil, fmt.Errorf("load: %w", err)
 	}
