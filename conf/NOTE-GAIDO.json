@@ -42,6 +42,13 @@
     "banco": "profinanc_suprema"
   },
   {
+    "alias": "apucarana",
+    "servidor": "198.211.115.248",
+    "usuario": "root",
+    "senha": "1000sonhosreais",
+    "banco": "profinanc_apucarana"
+  },
+  {
     "alias": "testeatlas",
     "servidor": "198.211.115.248",
     "usuario": "root",
