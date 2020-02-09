@@ -42,6 +42,13 @@
     "banco": "profinanc_apucarana"
   },
   {
+    "alias": "demo01",
+    "servidor": "localhost",
+    "usuario": "root",
+    "senha": "1000sonhosreais",
+    "banco": "profinanc_demo01"
+  },
+  {
     "alias": "testeatlas",
     "servidor": "localhost",
     "usuario": "root",
