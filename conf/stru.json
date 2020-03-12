@@ -103,5 +103,19 @@
     "usuario": "root",
     "senha": "1000sonhosreais",
     "banco": "consorcio"
+  },
+  {
+    "alias": "abralatas",
+    "servidor": "localhost",
+    "usuario": "root",
+    "senha": "Semaver13",
+    "banco": "abralatas"
+  },
+  {
+    "alias": "abralataspro",
+    "servidor": "198.211.115.248",
+    "usuario": "root",
+    "senha": "1000sonhosreais",
+    "banco": "abralatas"
   }
 ]
