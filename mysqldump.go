@@ -21,6 +21,7 @@ var (
 		"mediumint(9)",
 		"mediumint",
 		"smallint(5)",
+		"smallint(6)",
 		"smallint",
 		"int(10)",
 		"int",
