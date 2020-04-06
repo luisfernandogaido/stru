@@ -110,5 +110,12 @@
     "usuario": "root",
     "senha": "1000sonhosreais",
     "banco": "abralatas"
+  },
+  {
+    "alias": "abralatashom",
+    "servidor": "localhost",
+    "usuario": "root",
+    "senha": "1000sonhosreais",
+    "banco": "abralatas"
   }
 ]
