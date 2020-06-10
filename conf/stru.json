@@ -110,5 +110,26 @@
     "usuario": "root",
     "senha": "Semaver13",
     "banco": "abralatas"
+  },
+  {
+    "alias": "abralataspro",
+    "servidor": "198.211.115.248",
+    "usuario": "root",
+    "senha": "1000sonhosreais",
+    "banco": "abralatas"
+  },
+  {
+    "alias": "discon",
+    "servidor": "localhost",
+    "usuario": "root",
+    "senha": "Semaver13",
+    "banco": "discon"
+  },
+  {
+    "alias": "disconpro",
+    "servidor": "167.172.155.222",
+    "usuario": "root",
+    "senha": "1000sonhosreais",
+    "banco": "discon"
   }
 ]

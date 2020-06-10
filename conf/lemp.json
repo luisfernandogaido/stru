@@ -117,5 +117,12 @@
     "usuario": "root",
     "senha": "1000sonhosreais",
     "banco": "abralatashom"
+  },
+  {
+    "alias": "discon",
+    "servidor": "localhost",
+    "usuario": "root",
+    "senha": "1000sonhosreais",
+    "banco": "discon"
   }
 ]
