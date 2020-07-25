@@ -42,6 +42,13 @@
     "banco": "profinanc_apucarana"
   },
   {
+    "alias": "apravel",
+    "servidor": "localhost",
+    "usuario": "root",
+    "senha": "1000sonhosreais",
+    "banco": "profinanc_apravel"
+  },
+  {
     "alias": "demo01",
     "servidor": "localhost",
     "usuario": "root",
